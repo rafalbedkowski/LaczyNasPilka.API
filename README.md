@@ -28,9 +28,9 @@ $ dotnet publish -c Release
 
 Visit www.laczynaspiłka.pl.
 In the upper right corner click "Wyszukaj".
-Enter the player's name and surname and search.
+Enter the player's first name, surname and search.
 In the selected ones, select the player profile you want.
-Copy part of the URL according to the example : https://www.laczynaspilka.pl/zawodnik/`jan-kowalski,123857.html`
+Copy part of the URL according to the example : www.laczynaspilka.pl/zawodnik/`jan-kowalski,123857.html`
 If you listening on http://localhost:5000 you can fetch :
 
 http://localhost:5000/playerapi/getplayerdata/jak-kowalski,123857.html
