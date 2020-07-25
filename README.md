@@ -69,3 +69,6 @@ You will receive back json data:
     ]
 }
 ```
+## Authors
+
+- **Rafał Będkowski** - [Morezo.pl](http://morezo.pl)
