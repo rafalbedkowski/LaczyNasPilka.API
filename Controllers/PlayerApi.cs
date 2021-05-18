@@ -9,6 +9,7 @@ namespace SoccerPlayer.Api.Controllers
     public class PlayerApi : ControllerBase
     {
         private readonly IPlayerRepository _repo;
+        
         public PlayerApi(IPlayerRepository repo)
         {
             _repo = repo;

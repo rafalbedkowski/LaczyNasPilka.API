@@ -8,6 +8,7 @@ namespace SoccerPlayer.Api.Models.Dtos
         {
             Clubs = new HashSet<ClubDto>();
         }
+        
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int PlayerAge { get; set; }

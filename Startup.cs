@@ -60,7 +60,6 @@ namespace SoccerPlayer.Api
             }
 
             app.UseGraphiQl("/graphql");
-            // app.UseHttpsRedirection(); //działą bez https
             app.UseGraphQL<AppSchema>();
             app.UseGraphQLPlayground(options: new GraphQLPlaygroundOptions());
             app.UseRouting();
